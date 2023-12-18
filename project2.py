@@ -8,7 +8,7 @@ from sklearn import svm
 from sklearn.metrics import accuracy_score
 
 #loading the saved model
-loaded_model = pickle.load(open('C:/Users/91800/trained_model.sav','rb'))
+loaded_model = pickle.load(open('trained_model.sav','rb'))
 
 # creating a function for prediction
 def diabetes_prediction(input_data):
